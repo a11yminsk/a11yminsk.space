@@ -1,27 +1,97 @@
 :root {
     --color-background: #1c2128;
+    --color-talk-background: #101618;
     --color-text: #cdd9e5;
     --color-accent: #FF7F00;
     --color-accent-hover: #FFFFFF;
+    --color-heading: #FFFFFF;
+
+    --font-family: Roboto, sans-serif;
+    --font-size-text: 20px;
 }
 
 body {
     background-color: var(--color-background);
     color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: var(--font-size-text);
 }
 
 a {
     color: var(--color-accent);
 }
 
-.ac-announcement {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 30px 0;
+a:hover {
+    color: var(--color-accent-hover);
 }
 
-.ac-talk-description {
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-heading);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h4 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.talk {
     border: 1px solid #999;
-    padding: 20px;
-    margin: 20px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    margin: 20px 0;
+    max-width: 900px;
+    background-color: var(--color-talk-background);
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-areas:
+            "HEADING HEADING"
+            "DESCR DESCR"
+            "SPEAKER SPEAKER"
+    ;
+    grid-column-gap: 20px;
+    align-items: center;
+}
+
+.talk__time {
+    grid-area: TIME;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.talk__heading {
+    grid-area: HEADING;
+}
+
+.talk__description {
+    grid-area: DESCR;
+}
+
+.speaker {
+    grid-area: SPEAKER;
+}
+
+.speaker__company {
+    margin-top: 5px;
+}
+
+img {
+    display: none;
 }
