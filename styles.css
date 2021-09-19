@@ -83,6 +83,7 @@ h4 {
     grid-template-columns: 1fr 7fr;
     grid-template-areas:
             "TIME HEADING"
+            "LINKS LINKS"
             "DESCR DESCR"
             "SPEAKER SPEAKER"
     ;
@@ -96,6 +97,7 @@ h4 {
         grid-template-areas:
             "TIME"
             "HEADING"
+            "LINKS"
             "DESCR"
             "SPEAKER"
         ;
@@ -116,6 +118,16 @@ h4 {
 
 .talk__description {
     grid-area: DESCR;
+}
+
+.talk__links {
+    grid-area: LINKS;
+    display: flex;
+}
+
+.talk__links a {
+    display: block;
+    margin-right: 10px;
 }
 
 .speaker {
