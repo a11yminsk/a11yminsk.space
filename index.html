@@ -9,18 +9,19 @@
 </head>
 <body>
 
-<header>
+<!--header>
     <nav>
-        <!--a href="./events/3.html">Анонс митапа №3</a-->
-        <!--a href="#">Спикеры</a>
-        <a href="#">Доклады</a-->
-    </nav>
-</header>
+        <a href="./events/3.html">Анонс митапа №3</a-->
+<!--a href="#">Спикеры</a>
+<a href="#">Доклады</a>
+</nav>
+</header-->
 <main>
     <section>
         <h1>Accessibility Club Minsk</h1>
         <p>Accessibility Club Minsk — официальное сообщество в Минске о доступности цифровой среды.</p>
-        <p>Мы делимся самой живой информацией о состоянии стандартов и о требованиях accessibility, разбираем актуальные кейсы в современной разработке, помогаем решать задачи и просто вместе заботимся о пользователе!</p>
+        <p>Мы делимся самой живой информацией о состоянии стандартов и о требованиях accessibility, разбираем актуальные
+            кейсы в современной разработке, помогаем решать задачи и просто вместе заботимся о пользователе!</p>
         <p>Нас можно найти в соц.сетях:</p>
         <ul>
             <li><a href="https://twitter.com/a11yminsk">Twitter</a></li>
@@ -38,27 +39,42 @@
         </ul>
     </section>
 
-    <section id="organizers">
+    <section id="organizers" class="organizers">
         <h2>Организаторы</h2>
+        <div class="organizers__list">
+            <div class="organizer">
+                <div class="organizer__info">
+                    <h3>Глафира Жур</h3>
+                    <p class="organizer__bio">Frontend Team Lead и главный accessibility-котик в компании SpurIT. Член программного комитета IT-комьюнити MinskCSS и MinskJS, а также культового BeerJS Summit. Одна из создателей и двигателей Accessibility Club Minsk и чрезмерно смешливый преподаватель на <a href="https://accessibilityunity.com/" target="_blank">курсах по цифровой доступности</a>.</p>
+                    <h4>Соц. сети:</h4>
+                    <ul class="organizer__links" role="list">
+                        <li><a href="https://twitter.com/glafirazhur"
+                               class="source-link source-link--twitter">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/glafira-zhur/"
+                               class="source-link source-link--linkedin">LinkedIn</a></li>
+                        <li><a href="https://t.me/glafira_zhur" class="source-link source-link--telegram">Telegram</a>
+                        </li>
+                    </ul>
+                </div>
+                <img src="./speakers/glafira-zhur/photo.jpg" alt="Портрет Глаши" class="organizer__image">
+            </div>
 
-        <div class="organizer">
-            <h3>Глафира Жур</h3>
-            <ul>
-                <li><a href="https://twitter.com/glafirazhur">Twitter</a></li>
-                <li><a href="https://www.linkedin.com/in/glafira-zhur/">LinkedIn</a></li>
-                <li><a href="https://t.me/glafira_zhur">Telegram</a></li>
-            </ul>
-            <img src="" alt="Портрет Глаши на фоне голубого неба">
-        </div>
-
-        <div class="organizer">
-            <h3>Захар Авсиевич</h3>
-            <ul>
-                <li><a href="https://twitter.com/zavsievich">Twitter</a></li>
-                <li><a href="https://www.linkedin.com/in/zavsievich/">LinkedIn</a></li>
-                <li><a href="https://t.me/zavsievich">Telegram</a></li>
-            </ul>
-            <img src="" alt="Портрет Захара на фоне голубого неба">
+            <div class="organizer">
+                <div class="organizer__info">
+                    <h3>Захар Авсиевич</h3>
+                    <p class="organizer__bio">Создаю сайты, задумываюсь о пользователях, выступаю с докладами. Соорганизатор Accessibility Club Minsk.</p>
+                    <h4>Соц. сети:</h4>
+                    <ul class="organizer__links">
+                        <li><a href="https://twitter.com/zavsievich"
+                               class="source-link source-link--twitter">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/zavsievich/" class="source-link source-link--linkedin">LinkedIn</a>
+                        </li>
+                        <li><a href="https://t.me/zavsievich" class="source-link source-link--telegram">Telegram</a>
+                        </li>
+                    </ul>
+                </div>
+                <img class="organizer__image" src="./speakers/zahar-avsievich/photo.jpg" alt="Портрет Захара">
+            </div>
         </div>
     </section>
 
