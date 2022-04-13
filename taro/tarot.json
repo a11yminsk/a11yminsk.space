@@ -1,0 +1,134 @@
+[
+  {
+    "cardid": 0,
+    "cardname": "Шут",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 1,
+    "cardname": "Маг",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 2,
+    "cardname": "Жрица",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 3,
+    "cardname": "Императрица",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 4,
+    "cardname": "Император",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 5,
+    "cardname": "Жрец",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 6,
+    "cardname": "Влюблённые",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 7,
+    "cardname": "Колесница",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 8,
+    "cardname": "Сила",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 9,
+    "cardname": "Отшельник",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 10,
+    "cardname": "Колесо фортуны",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 11,
+    "cardname": "Справедливость",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 12,
+    "cardname": "Повешенный",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 13,
+    "cardname": "Смерть",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 14,
+    "cardname": "Умеренность",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 15,
+    "cardname": "Дьявол",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 16,
+    "cardname": "Башня",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 17,
+    "cardname": "Звезда",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 18,
+    "cardname": "Луна",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 19,
+    "cardname": "Солнце",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 20,
+    "cardname": "Суд",
+    "cardvalue": "",
+    "cardimage": ""
+  },
+  {
+    "cardid": 21,
+    "cardname": "Мир",
+    "cardvalue": "",
+    "cardimage": ""
+  }
+]
